@@ -1,0 +1,17 @@
+services:
+  agent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"  # Expose web interface
+    models:
+      gemma3:
+        endpoint_var: MODEL_RUNNER_URL
+        model_var: MODEL_RUNNER_MODEL
+
+models:
+  gemma3:
+    # Use a smaller model for easy testing
+    model: ai/gemma3:4B-Q4_0
+    context_size: 10000 # 3.5 GB VRAM
