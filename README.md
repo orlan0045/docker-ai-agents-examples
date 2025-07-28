@@ -2,6 +2,8 @@
 
 This project demonstrates the evolution of AI agents using Docker's new AI features, showcasing different levels of complexity and capabilities.
 
+For a detailed walkthrough and use-case article, see: [Docker AI Agents Era on Medium](https://medium.com/@andriiorlov/docker-ai-agents-era-e70ca5c0f7ec)
+
 ## Overview
 
 This demo showcases how to build AI agents using Docker's Model Runner and MCP (Model Context Protocol) Gateway. The project is organized into three levels, each demonstrating progressively more advanced AI capabilities:
@@ -75,7 +77,7 @@ docker-ai-demo/
 - **AI Framework**: Google ADK (Agent Development Kit)
 - **Local LLM**: Gemma3 4B via Docker Model Runner
 - **Protocol**: MCP (Model Context Protocol) Gateway
-- **Web Interface**: FastAPI-based chat interface
+- **Web Interface**: Google ADK-based chat interface
 - **Containerization**: Docker Compose
 
 ## 🎮 Interactive Demo
@@ -123,7 +125,3 @@ This demo is designed to be educational and extensible. Feel free to:
 - Add new tools and capabilities
 - Create your own levels
 - Experiment with different models
-
-## 📄 License
-
-This project is licensed under the Apache License 2.0 - see the LICENSE file for details. 

@@ -44,7 +44,7 @@ This level builds upon Level 1 by adding Docker's MCP (Model Context Protocol) G
 - Connects to Docker Model Runner for local inference
 - Integrates with Docker MCP Gateway for external tools
 - Uses MCP protocol for tool communication
-- Provides web interface using ADK's built-in FastAPI integration
+- Provides web interface using ADK's built-in features
 - External time service integration through MCP
 
 ## 🎯 Key Differences from Other Levels
@@ -77,12 +77,7 @@ This level introduces the MCP (Model Context Protocol) Gateway, which:
 - Protocol-based AI agent development
 - Docker MCP Gateway configuration
 
-## 🎮 Try This
-
-Ask the agent questions like:
-- "What time is it in New York?"
-- "Can you tell me the current time in New York?"
-- "What's the time in NYC?"
+## 🎮 Try 
 
 The agent now uses MCP Gateway to access external time services, providing more robust and accurate time information.
 

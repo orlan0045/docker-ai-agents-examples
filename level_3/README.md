@@ -34,7 +34,7 @@ This level demonstrates advanced AI agent orchestration using a multi-agent syst
 
 3. You'll see the ADK web interface where you can chat with the multi-agent system
 
-4. Try asking: "Is it a good time to go on a date in New York?"
+4. Try asking: "Is it a good time to call my girlfriend who is in Jakarta?"
 
 5. Press Ctrl+C in the terminal to stop
 
@@ -46,7 +46,7 @@ This level demonstrates advanced AI agent orchestration using a multi-agent syst
 - Coordinates multiple specialized sub-agents:
   - **Time Agent**: Handles time-related queries
   - **Dating Agent**: Provides dating advice based on time analysis
-- Provides web interface using ADK's built-in FastAPI integration
+- Provides web interface using ADK's built-in features
 
 ## 🎯 Key Differences from Other Levels
 
@@ -104,12 +104,7 @@ is-it-time-agents/
 - Advanced AI agent architectures
 - Agent-to-agent communication
 
-## 🎮 Try This
-
-Ask the multi-agent system questions like:
-- "Is it a good time to go on a date in New York?"
-- "Should I ask my girlfriend out now? It's 8 PM in NYC"
-- "What time is it in London and is it good for dating?"
+## 🎮 Try 
 
 The system will:
 1. **Time Agent** determines the current time

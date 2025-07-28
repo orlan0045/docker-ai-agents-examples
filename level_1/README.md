@@ -6,7 +6,7 @@ This is the foundational level demonstrating how to create a simple AI agent usi
 
 - **Basic Local LLM Integration**: Using Docker Model Runner with Gemma3 4B
 - **Simple Tool Integration**: Basic Python function as a tool
-- **Web Interface**: FastAPI-based chat interface
+- **Web Interface**: Google ADK-based chat interface
 - **No External Dependencies**: Runs completely locally
 
 ## 🚀 Features
@@ -68,11 +68,6 @@ This is the foundational level demonstrating how to create a simple AI agent usi
 - Web interface for AI interaction
 - Local AI development workflow
 
-## 🎮 Try This
-
-Ask the agent questions like:
-- "What time is it in New York?"
-- "Can you tell me the current time in New York?"
-- "What's the time in NYC?"
+## 🎮 Try 
 
 This level focuses on the fundamentals of local AI agent development with Docker. 
